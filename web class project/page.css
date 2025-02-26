@@ -8,7 +8,7 @@
 /* Body */
 body {
     font-family: Arial, sans-serif;
-    background-color: #121212;
+    background-color: #0a0f2c; /* Dark Blue Background */
     color: white;
     text-align: center;
     padding: 20px;
@@ -18,16 +18,17 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    background: #161616;
-    padding: 15px 30px; /* Increased padding for spacing */
+    background: #1c1f4a; /* Dark Purple */
+    padding: 15px 30px;
     align-items: center;
-    margin-bottom: 20px; /* Added margin for separation */
+    margin-bottom: 20px;
+    border-bottom: 3px solid #7048e8; /* Purple Border */
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
-    color: yellow;
+    color: #4a90e2; /* Light Blue */
 }
 
 nav ul {
@@ -41,93 +42,117 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: white;
     font-size: 16px;
-    padding: 8px 12px; /* Added padding for better spacing */
+    padding: 8px 12px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4a90e2; /* Light Blue Hover */
 }
 
 .signup-btn {
-    background: yellow;
+    background: #7048e8; /* Purple Button */
     padding: 8px 15px;
-    color: black;
+    color: white;
     border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.signup-btn:hover {
+    background: #4a90e2; /* Light Blue Hover */
 }
 
 /* Hero Section */
 .hero {
-    padding: 60px 20px; /* Added padding for spacing */
-    background: #1e1e1e;
-    margin-bottom: 30px; /* Added margin below */
+    padding: 60px 20px;
+    background: #13184d; /* Dark Blue */
+    margin-bottom: 30px;
 }
 
 .hero h1 {
     font-size: 36px;
+    color: white;
     margin-bottom: 10px;
 }
 
 .hero p {
     font-size: 18px;
     margin-bottom: 20px;
+    color: #b0b3ff; /* Light Purple Text */
 }
 
 .btn {
     display: inline-block;
     margin-top: 15px;
     padding: 12px 25px;
-    background: yellow;
-    color: black;
+    background: #4a90e2; /* Light Blue */
+    color: white;
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #7048e8; /* Purple Hover */
 }
 
 /* Crypto Table */
 .crypto-table {
-    padding: 30px 10px; /* Added padding for spacing */
+    padding: 30px 10px;
     text-align: center;
-    margin-bottom: 30px; /* Added margin for separation */
+    margin-bottom: 30px;
 }
 
 .crypto-table h2 {
     margin-bottom: 15px;
     font-size: 24px;
-    color: yellow;
+    color: #4a90e2; /* Light Blue */
 }
 
 table {
     width: 80%;
-    margin: 0 auto; /* Centers the table */
+    margin: 0 auto;
     border-collapse: collapse;
-    background: #1e1e1e;
+    background: #1c1f4a; /* Dark Purple */
     color: white;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 th, td {
-    padding: 12px 20px; /* Added padding for better readability */
-    border-bottom: 1px solid #333;
+    padding: 12px 20px;
+    border-bottom: 1px solid #4a90e2; /* Light Blue Borders */
     text-align: left;
 }
 
 th {
-    background: #161616;
+    background: #232861; /* Darker Blue */
     font-weight: bold;
+    color: white;
 }
 
 tr:hover {
-    background: #2a2a2a;
+    background: #2d328f; /* Medium Blue Hover */
 }
 
 .positive {
-    color: lightgreen;
+    color: #7ed957; /* Green for Positive Change */
 }
 
 .negative {
-    color: red;
+    color: #ff4f4f; /* Red for Negative Change */
 }
 
 /* Footer */
 footer {
-    background: #161616;
+    background: #1c1f4a;
     padding: 20px;
-    margin-top: 30px; /* Added margin for spacing */
+    margin-top: 30px;
+    border-top: 3px solid #7048e8; /* Purple Border */
+    color: white;
 }
+
