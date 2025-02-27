@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0f2c; /* Dark Blue Background */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #1c1f4a; /* Dark Purple */
+    padding: 15px 30px;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #7048e8; /* Purple Border */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a90e2; /* Light Blue */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4a90e2; /* Light Blue Hover */
+}
+
+.signup-btn {
+    background: #7048e8; /* Purple Button */
+    padding: 8px 15px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.signup-btn:hover {
+    background: #4a90e2; /* Light Blue Hover */
+}
+form {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    max-width: 400px; /* Max width for the form */
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #4a90e2; /* Light Blue Border */
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2); /* Light background for inputs */
+    color: white; /* Text color */
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #7048e8; /* Darker border on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Submit Button */
+button {
+    background: #4a90e2; /* Light Blue Button */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+    width: 100%; /* Full width */
+}
+
+button:hover {
+    background: #7048e8; /* Darker Blue on hover */
+}
+
+/* Error Message Styles */
+.error {
+    color: red;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    color: #ccc; /* Light gray for footer text */
+}
